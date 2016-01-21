@@ -15,7 +15,7 @@ setup(
     author='Jean-Baptiste Marchand-Arvier',
     author_email='jeanbaptiste@wp-rocket.me',
     license="MIT License",
-    url='',
+    url='https://github.com/wp-media/imagify-python',
     keywords='imagify, python',
     classifiers=[],
     packages=find_packages(),
