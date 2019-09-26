@@ -2,6 +2,7 @@ from .errors import raise_errors_on_failure
 import requests
 import json
 
+
 class HttpClient(object):
 
     def validate_response(self, r):

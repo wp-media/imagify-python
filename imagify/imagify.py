@@ -1,9 +1,10 @@
 from .http_client import HttpClient
 from .errors import ImagifyError
+from . import __version__ as imagify_version
 
 
 class Imagify(object):
-    __version__ = "0.0.1"
+    __version__ = imagify_version
 
     def __init__(self, api_key=False):
         if not api_key:
