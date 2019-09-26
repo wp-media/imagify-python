@@ -5,7 +5,14 @@ Official Imagify API Wrapper for Python
 
 Installation
 ------------
-Download the sources on this Github repository and do a
+To download the latest stable version do a
+
+::
+
+    pip install imagify-python
+
+
+To install latest development version download the sources on this Github repository and do a
 
 ::
 
