@@ -17,9 +17,16 @@ setup(
     license="MIT License",
     url='https://github.com/wp-media/imagify-python',
     keywords='imagify, python',
-    classifiers=[],
     packages=find_packages(),
     include_package_data=True,
     install_requires=['requests>=2.9.1'],
-    zip_safe=False
+    zip_safe=False,
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 2",
+    ],
 )
