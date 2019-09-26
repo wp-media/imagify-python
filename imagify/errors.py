@@ -1,3 +1,6 @@
+from __future__ import unicode_literals
+
+
 class ImagifyError(Exception):
 
     def __init__(self, message=None, context=None):

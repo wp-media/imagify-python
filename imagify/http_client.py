@@ -1,6 +1,10 @@
+from __future__ import absolute_import
+from __future__ import unicode_literals
+
 from .errors import raise_errors_on_failure
 import requests
 import json
+
 
 class HttpClient(object):
 
